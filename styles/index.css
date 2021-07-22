@@ -1,0 +1,30 @@
+body, h1{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #243119;
+    color: white;
+    margin: 0;
+}
+
+table{
+    margin: 20px 0 40px 0;
+    text-align: center;
+}
+
+.spotlight, thead{
+    background: #629460;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: solid black;
+    height: 4rem;
+    width: 10rem;
+    max-height: 4rem;
+    max-width: 10rem;
+}
