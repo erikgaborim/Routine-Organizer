@@ -10,81 +10,110 @@
     <!--Styles-->
     <link rel="stylesheet" href="./styles/index.css">
 
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" 
+    rel="stylesheet">
+    <!--Tourney-->
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <header>
         <h1>Routine Organizer</h1>
     </header>
     <main>
-        <table>
-            <colgroup>
-                <col class="spotlight">
-            </colgroup>
-            <thead>
-                <tr>
-                    <th>Horário/Dia</th>
-                    <th>Segunda-Feira</th>
-                    <th>Terça-Feira</th>
-                    <td>Quarta-Feira</td>
-                    <th>Quinta-Feira</th>
-                    <th>Sexta-Feira</th>
-                    <th>Sábado</th>
-                    <th>Domingo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th  contenteditable style="color:white" scope="row">7h00 - 9h00</th>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                </tr>
-                <tr>
-                    <th contenteditable style="color:white" scope="row">9h00 - 12h00</th>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                </tr>
-                <tr>
-                    <th contenteditable style="color:white" scope="row">13h00 - 18h00</th>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                </tr>
-                <tr>
-                    <th contenteditable style="color:white" scope="row">19h00 - 20h30</th>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                </tr>
-                <tr>
-                    <th contenteditable style="color:white" scope="row">20h30 - 22h00</th>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                    <td contenteditable></td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="div-table">
+            <table>
+                <colgroup>
+                    <col class="spotlight">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Horário/Dia</th>
+                        <th>Domingo</th>
+                        <th>Segunda-Feira</th>
+                        <th>Terça-Feira</th>
+                        <th>Quarta-Feira</th>
+                        <th>Quinta-Feira</th>
+                        <th>Sexta-Feira</th>
+                        <th>Sábado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th  contenteditable style="color:white" scope="row">7h00 - 9h00</th>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                    </tr>
+                    <tr>
+                        <th contenteditable style="color:white" scope="row">9h00 - 12h00</th>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                    </tr>
+                    <tr>
+                        <th contenteditable style="color:white" scope="row">13h00 - 18h00</th>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                    </tr>
+                    <tr>
+                        <th contenteditable style="color:white" scope="row">19h00 - 20h30</th>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                    </tr>
+                    <tr>
+                        <th contenteditable style="color:white" scope="row">20h30 - 22h00</th>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                        <td contenteditable></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
+
+    <footer>
+        <h1>&copy; Erik Gaborim</h1>
+        <div id="github-icon">
+            <a href="https://github.com/erikgaborim">
+                <img class="social-medias-icon" src="./images/github.png" alt="github-icon">
+            </a>
+        </div>
+        <div id="social-media">
+            <a href="https://www.instagram.com/erikgfp/">
+                <img class="social-medias-icon" src="./images/instagram.png" alt="instagram-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/erik-gaborim/">
+                <img class="social-medias-icon" src="./images/linkedin.png" alt="linkedin-icon">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

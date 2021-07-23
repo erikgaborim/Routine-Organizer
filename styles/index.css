@@ -3,11 +3,20 @@ body, h1{
     padding: 0;
 }
 
+h1{
+    font: 500 2rem Tourney;
+}
+
 header{
     text-align: center;
     background-color: #243119;
     color: white;
     margin: 0;
+}
+
+#div-table{
+    display: flex;
+    justify-content: center;
 }
 
 table{
@@ -27,4 +36,48 @@ td, th{
     width: 10rem;
     max-height: 4rem;
     max-width: 10rem;
+}
+
+td{
+    font: 300 1rem Roboto;
+}
+
+th{
+    font: 400 1.3rem Tourney;
+}
+
+footer{
+    background-color: #243119;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer h1{
+    font-size: 1.6rem;
+}
+
+#github-icon{
+    position: absolute;
+    left: 0;
+    display: flex;
+    max-height: 1.5rem;
+}
+
+#social-media{
+    position: absolute;
+    right: 0;
+    display: flex;
+    max-height: 1.5rem;
+}
+
+.social-medias-icon{
+    max-width:1.5rem;
+    max-height:1.5rem;
+    width: auto;
+    height: auto;
+    margin: 0 0.1rem;
 }
