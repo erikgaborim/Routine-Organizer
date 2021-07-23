@@ -20,12 +20,12 @@ header{
 }
 
 table{
-    margin: 20px 0 40px 0;
+    margin: 1rem 0 1rem 0;
     text-align: center;
 }
 
 .spotlight, thead{
-    background: #629460;
+    background-color:var(--color-main);
     color: white;
     font-weight: bold;
 }
@@ -44,20 +44,7 @@ td{
 
 th{
     font: 400 1.3rem Tourney;
-}
-
-footer{
-    background-color: #243119;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-
-footer h1{
-    font-size: 1.6rem;
+    color:white;
 }
 
 #github-icon{
@@ -80,4 +67,44 @@ footer h1{
     width: auto;
     height: auto;
     margin: 0 0.1rem;
+}
+
+#div-table-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    background-color: var(--color-buttons);
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.buttons:hover{
+    cursor: pointer; /*mãozinha*/
+    background-color: var(--color-buttons-hover);
+    transition: 0.5s;
+}
+
+.plus-less-icon{
+    max-height: 2rem;
+}
+
+footer{
+    background-color: #243119;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+footer h1{
+    font-size: 1.6rem;
 }

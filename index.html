@@ -9,6 +9,7 @@
 
     <!--Styles-->
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/main.css">
 
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,7 @@
     <!--Tourney-->
     <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
+    <script src="./scripts/addRow.js"></script>
 
 </head>
 <body>
@@ -27,7 +29,7 @@
     </header>
     <main>
         <div id="div-table">
-            <table>
+            <table id="table">
                 <colgroup>
                     <col class="spotlight">
                 </colgroup>
@@ -45,7 +47,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th  contenteditable style="color:white" scope="row">7h00 - 9h00</th>
+                        <th contenteditable scope="row">7h00 - 9h00</th>
                         <td contenteditable></td>
                         <td contenteditable></td>
                         <td contenteditable></td>
@@ -55,7 +57,7 @@
                         <td contenteditable></td>
                     </tr>
                     <tr>
-                        <th contenteditable style="color:white" scope="row">9h00 - 12h00</th>
+                        <th contenteditable scope="row">9h00 - 12h00</th>
                         <td contenteditable></td>
                         <td contenteditable></td>
                         <td contenteditable></td>
@@ -65,7 +67,7 @@
                         <td contenteditable></td>
                     </tr>
                     <tr>
-                        <th contenteditable style="color:white" scope="row">13h00 - 18h00</th>
+                        <th contenteditable scope="row">13h00 - 18h00</th>
                         <td contenteditable></td>
                         <td contenteditable></td>
                         <td contenteditable></td>
@@ -75,7 +77,7 @@
                         <td contenteditable></td>
                     </tr>
                     <tr>
-                        <th contenteditable style="color:white" scope="row">19h00 - 20h30</th>
+                        <th contenteditable scope="row">19h00 - 20h30</th>
                         <td contenteditable></td>
                         <td contenteditable></td>
                         <td contenteditable></td>
@@ -85,7 +87,7 @@
                         <td contenteditable></td>
                     </tr>
                     <tr>
-                        <th contenteditable style="color:white" scope="row">20h30 - 22h00</th>
+                        <th contenteditable scope="row">20h30 - 22h00</th>
                         <td contenteditable></td>
                         <td contenteditable></td>
                         <td contenteditable></td>
@@ -96,6 +98,14 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <div id="div-table-buttons">
+            <button class="buttons" onclick="Adicionar()">
+                <img class="plus-less-icon" src="./images/plus-icon.png" alt="plus-icon">
+            </button>
+            <button class="buttons" onclick="Remover()">
+                <img class="plus-less-icon" src="./images/less-icon.png" alt="less-icon">
+            </button>
         </div>
     </main>
 
