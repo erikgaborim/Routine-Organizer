@@ -47,6 +47,11 @@ th{
     color:white;
 }
 
+.hour-add-font{
+    font: 400 1.3rem Tourney;
+    color: white;
+}
+
 #github-icon{
     position: absolute;
     left: 0;

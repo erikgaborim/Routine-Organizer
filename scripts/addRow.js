@@ -8,7 +8,9 @@ function Adicionar(){
     for (var j = 0; j < numOfCols; j++) {
         newCell = newRow.insertCell(j);
         newCell.setAttribute('contenteditable', true);
-        // newCell.classList.add('');
+        if(j==0){
+            newCell.classList.add('hour-add-font');
+        }
     }
 }
 
